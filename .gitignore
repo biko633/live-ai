@@ -35,3 +35,9 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# drawing
+remove_later_and_save.excalidraw
+
+# todos
+todo.md

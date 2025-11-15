@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "q-ai",
-    "slug": "q-ai",
+    "scheme": "live-ai",
+    "name": "live-ai",
+    "slug": "live-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +25,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }
