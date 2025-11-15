@@ -21,11 +21,20 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "LIVE.AI"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-router"]
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f4fba49b-90ba-407b-928d-f13a7798a407"
+      }
+    }
   }
 }

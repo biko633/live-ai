@@ -11,7 +11,7 @@ const SettingsScreen = () => {
   const setPersonality = useChatStore((state) => state.setPersonality);
   const getPersonality = useChatStore((state) => state.getPersonality);
   const [open, setOpen] = useState(false);
-  const [value, setValue] = useState(null);
+  const [value, setValue] = useState("");
   const [items, setItems] = useState(personalities_Array());
 
   const setUp = async () => {
