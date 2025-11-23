@@ -150,7 +150,8 @@ const HomeScreen = () => {
                 placeholder="Type here..."
                 style={styles.input}
                 value={text}
-                onChangeText={setText}
+                onChangeText={(t) => setText(t)}
+                onEndEditing={(e) => setText(e.nativeEvent.text)}
                 multiline={true}
                 scrollEnabled={true}
               />
