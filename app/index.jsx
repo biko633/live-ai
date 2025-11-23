@@ -87,8 +87,8 @@ const HomeScreen = () => {
           style={{
             flexDirection: "row-reverse",
             justifyContent: "space-between",
-            paddingHorizontal: 20,
-            paddingVertical: 30,
+            paddingHorizontal: "6%",
+            paddingVertical: "10%",
           }}
         >
           <Link href="/SettingsScreen">

@@ -1,7 +1,8 @@
 import * as SecureStore from "expo-secure-store";
 
 export const saveApiKey = async (name, key) => {
-  await SecureStore.setItemAsync(name, key);
+  let trimmedKey = String(key).trim();
+  await SecureStore.setItemAsync(name, trimmedKey);
 };
 
 export const getApiKey = async (name) => {

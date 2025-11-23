@@ -33,8 +33,8 @@ const SettingsScreen = () => {
       <View
         style={{
           position: "absolute",
-          top: 45,
-          left: 20,
+          top: "6%",
+          left: "10%",
           backgroundColor: "lightblue",
           borderRadius: 25,
           padding: 3,
