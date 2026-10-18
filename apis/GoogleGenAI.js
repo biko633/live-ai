@@ -28,7 +28,7 @@ export const useChatStream = () => {
 
     try {
       const chat = ai.chats.create({
-        model: "gemini-2.5-flash",
+        model: "gemini-flash-latest",
         config: {
           systemInstruction: personality_Text,
           // thinkingConfig: 0,
@@ -61,7 +61,7 @@ export const useChatStream = () => {
       } else {
         Alert.alert(
           "Error",
-          "something went wrong: " + error_code + " " + error_message
+          "something went wrong: " + error_code + " " + error_message,
         );
       }
       return "error";
